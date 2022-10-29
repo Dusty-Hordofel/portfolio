@@ -1,0 +1,13 @@
+- inherit: Le mot-clé inherit est une valeur qui peut être utilisée pour qu'une propriété prenne la valeur calculée de la propriété pour l'élément parent. Cette valeur peut être utilisée sur n'importe quelle propriété CSS, y compris sur la propriété raccourcie all.
+https://www.w3schools.com/cssref//css_inherit.php
+https://developer.mozilla.org/fr/docs/Web/CSS/inherit
+
+- pointer-events:
+- scroll-behavior:
+- ::-webkit-scrollbar:
+- outline-offset: 
+
+
+
+# HTML
+- data-loading

@@ -5,3 +5,9 @@
 ### 2. Primary meta tags
 
 ### 3. Favicon tags
+
+### 4. link assets
+
+### 5. add styles
+
+

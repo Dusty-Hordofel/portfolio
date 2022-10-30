@@ -21,6 +21,21 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin
 - transition-delay: La propriété CSS transition-delay indique la durée à attendre avant de débuter la transition qui s'applique pour un changement de propriété.
 https://developer.mozilla.org/fr/docs/Web/CSS/transition-delay
 
-
+# PADDING
+- padding-block:La propriété padding-block définit l'espace de remplissage (padding) pour le début et la fin de l'axe de bloc de l'élément. 
+https://developer.mozilla.org/fr/docs/Web/CSS/padding-block
 # HTML
 - data-loading
+- data-navbar
+-  aria-label
+- data-header
+- data-nav-toggler
+- data-overlay
+
+
+# description
+1. LOADING
+
+on deéfinit  l'emplacement du logo de chargement, on déclenche la classe active avec un event listener.
+
+2. HEADER

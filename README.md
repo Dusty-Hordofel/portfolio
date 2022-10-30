@@ -10,13 +10,9 @@
 
 ### 5. add styles
 
-## Section 2. styles the logo
-
 ### 6. Preloading
 
-## Section 3. Header
-
-### 7.
+### 7.Header
 
 ### 8.
 

@@ -195,6 +195,7 @@ body.active {
   #LOADING
 ===============
 */
+
 .loading {
   position: fixed;
   top: 0;
@@ -206,6 +207,12 @@ body.active {
   transform-origin: bottom;
   transition: 0.5s var(--cubic-in);
   transition-delay: 0.5s;
+  display: none;
+}
+
+.loading.loaded {
+  transform: scaleY(0);
+  pointer-events: none;
 }
 
 .loading > * {
@@ -216,12 +223,12 @@ body.active {
   transition: var(--transition-2);
 }
 
-.loading .circle {
-  animation: rotate360 1.5s linear infinite;
-}
-
 .loading.loaded > * {
   opacity: 0;
+}
+
+.loading .circle {
+  animation: rotate360 1.5s linear infinite;
 }
 
 @keyframes rotate360 {
@@ -231,20 +238,7 @@ body.active {
   100% {
     transform: translate(-50%, -50%) rotate(1turn);
   }
-
-  
-
-/*
-.loading.loaded {
-  transform: scaleY(0);
-  pointer-events: none;
 }
-
-.loading.loaded > * {
-  opacity: 0;
-}
-
-}*/
 
 /*
 =============== 

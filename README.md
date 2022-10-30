@@ -10,7 +10,7 @@
 
 ### 5. add styles
 
-### 6. style the logo
+### 6. Preloading
 
 ## Section 2. styles the logo
 

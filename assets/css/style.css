@@ -1,23 +1,24 @@
 /*
 =============== 
-#style.css
+  #style.css
 ===============
 */
 
-/*
-=============== 
-Variables
-===============
-*/
+/**
+ * copyright 2022 codewithsadee
+ */
 
 /*
 =============== 
-#CUSTOM PROPERTY
+  #CUSTOM PROPERTY
 ===============
 */
 
 :root {
-  /* colors */
+  /**
+   * colors
+   */
+
   --smokey-black: hsl(0, 0%, 7%);
   --eerie-black: hsl(0, 0%, 9%);
   --radical-red: hsl(346, 100%, 58%);
@@ -33,7 +34,10 @@ Variables
   --white: hsl(0, 0%, 100%);
   --black: hsl(0, 0%, 0%);
 
-  /* gradient */
+  /**
+   * gradient color
+   */
+
   --gradient-1: linear-gradient(180deg, transparent, var(--smokey-black));
   --gradient-2: linear-gradient(
     180deg,
@@ -41,7 +45,10 @@ Variables
     hsla(0, 0%, 0%, 0.6) 80%
   );
 
-  /* typographie */
+  /**
+   * typography
+   */
+
   --ff-recoleta: "Recoleta", serif;
   --ff-gordita: "Gordita", sans-serif;
 
@@ -61,15 +68,30 @@ Variables
   --fw-400: 400;
   --fw-500: 500;
 
-  /* spacing */
+  /**
+   * spacing
+   */
+
   --section-padding: 60px;
-  /* shadow */
+
+  /**
+   * shadow
+   */
+
   --shadow: 0 12px 30px -10px hsla(0, 0%, 14%, 0.1);
-  /* Border Radius */
+
+  /**
+   * border radius
+   */
+
   --radius-circle: 50%;
   --radius-5: 5px;
   --radius-25: 25px;
-  /* Transition */
+
+  /**
+   * transition
+   */
+
   --transition-1: 0.25s ease;
   --transition-2: 0.5s ease;
   --transition-3: 1s ease;
@@ -79,9 +101,10 @@ Variables
 
 /*
 =============== 
- #RESET
+  #RESET
 ===============
 */
+
 *,
 *::before,
 *::after {
@@ -121,6 +144,7 @@ button {
 ion-icon {
   pointer-events: none;
 }
+
 address {
   font-style: normal;
 }
@@ -138,7 +162,6 @@ body {
   font-weight: var(--fw-400);
   line-height: 2.15;
   overflow-x: hidden;
-  height: 300vh;
 }
 
 body.active {
@@ -160,68 +183,131 @@ body.active {
 ::-webkit-scrollbar-thumb {
   background-color: var(--jet-2);
 }
+
 /*
 =============== 
-#REUSED STYLE
+  #REUSED STYLE
 ===============
 */
+
 /*
 =============== 
- #LOADING
+  #LOADING
 ===============
 */
+.loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--white);
+  z-index: 5;
+  transform-origin: bottom;
+  transition: 0.5s var(--cubic-in);
+  transition-delay: 0.5s;
+}
+
+.loading > * {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: var(--transition-2);
+}
+
+.loading .circle {
+  animation: rotate360 1.5s linear infinite;
+}
+
+.loading.loaded > * {
+  opacity: 0;
+}
+
+@keyframes rotate360 {
+  0% {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(1turn);
+  }
+
+  
+
+/*
+.loading.loaded {
+  transform: scaleY(0);
+  pointer-events: none;
+}
+
+.loading.loaded > * {
+  opacity: 0;
+}
+
+}*/
+
 /*
 =============== 
-#HEADER
+  #HEADER
 ===============
 */
+
 /*
 =============== 
- #HERO
+  #HERO
 ===============
 */
+
 /*
 =============== 
-#GALLERY
+  #GALLERY
 ===============
 */
+
 /*
 =============== 
-#CATEGORY
+  #CATEGORY
 ===============
 */
+
 /*
 =============== 
-#ABOUT
+  #ABOUT
 ===============
 */
+
 /*
 =============== 
-#SERVICES
+  #SERVICES
 ===============
 */
+
 /*
 =============== 
-#PORTFOLIO
+  #PORTFOLIO
 ===============
 */
+
 /*
 =============== 
-#FOOTER
+  #FOOTER
 ===============
 */
+
 /*
 =============== 
-#BACK TO TOP
+  #BACK TO TOP
 ===============
 */
+
 /*
 =============== 
-#CUSTOM CURSOR
+  #CUSTOM CURSOR
 ===============
 */
+
 /*
 =============== 
-#MEDIA QUERIES
+  #MEDIA QUERIES
 ===============
 */

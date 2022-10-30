@@ -2,11 +2,24 @@
 https://www.w3schools.com/cssref//css_inherit.php
 https://developer.mozilla.org/fr/docs/Web/CSS/inherit
 
+# TRANSFORM
+- transform-origin: La propriété CSS définit l'origine des transformations d'un élément.transform-origin
+https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin
+
+- transform: scaleY():
+
+
 - pointer-events:
 - scroll-behavior:
 - ::-webkit-scrollbar:
 - outline-offset: 
+- display:block
 
+
+# TRANSITION
+
+- transition-delay: La propriété CSS transition-delay indique la durée à attendre avant de débuter la transition qui s'applique pour un changement de propriété.
+https://developer.mozilla.org/fr/docs/Web/CSS/transition-delay
 
 
 # HTML

@@ -74,3 +74,6 @@ https://developer.mozilla.org/fr/docs/Web/CSS/padding-inline
 - border-block: La propriété border-block est une propriété raccourcie qui permet de paramétrer les différentes propriétés logiques relatives à la bordure sur l'axe en bloc.
 https://developer.mozilla.org/fr/docs/Web/CSS/border-block
 
+- data-*: Les attributs universels data-* forment une classe d'attributs, appelés attributs de données (data attributes). Ils permettent d'échanger des données propriétaire entre le HTML et la représentation du DOM, qu'on peut manipuler avec des scripts.
+https://developer.mozilla.org/fr/docs/Web/HTML/Global_attributes/data-*
+

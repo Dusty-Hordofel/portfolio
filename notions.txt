@@ -57,3 +57,10 @@ https://developer.mozilla.org/fr/docs/Web/CSS/place-content
 - padding-block: La propriété padding-block définit l'espace de remplissage (padding) pour le début et la fin de l'axe de bloc de l'élément. Cette propriété logique peut correspondre à différentes propriétés physiques selon le mode d'écriture de l'élément, sa direction et l'orientation du texte. Autrement dit, cette propriété peut correspondre aux propriétés padding-top et padding-bottom ou à padding-right et padding-left selon les valeurs des propriétés writing-mode, direction et text-orientation.
 https://developer.mozilla.org/fr/docs/Web/CSS/padding-block
 
+4. ABOUT
+
+- padding-inline-start: La propriété padding-inline-start définit le décalage avec le début de la zone de remplissage d'un élément selon le mode d'écriture, la direction et l'orientation du texte.
+https://developer.mozilla.org/fr/docs/Web/CSS/padding-inline-start
+
+- margin-block-end: La propriété margin-block-end définit la marge logique appliquée à la fin des éléments de bloc, selon le mode d'écriture, la directionnalité et l'orientation du texte. Selon les valeurs utilisées pour writing-mode, direction, and text-orientation, elle peut correspondre à margin-top, margin-right, margin-bottom ou margin-left.
+https://developer.mozilla.org/fr/docs/Web/CSS/margin-block-end

@@ -39,3 +39,21 @@ https://developer.mozilla.org/fr/docs/Web/CSS/padding-block
 on deéfinit  l'emplacement du logo de chargement, on déclenche la classe active avec un event listener.
 
 2. HEADER
+
+3. GALLERY
+
+- <figure></figure>: L'élément HTML <figure> représente un contenu autonome, éventuellement accompagné d'une légende facultative, qui est spécifiée à l'aide de l'élément <figcaption>. La figure, sa légende et son contenu sont référencés comme une seule unité.
+https://developer.mozilla.org/fr/docs/Web/HTML/Element/figure
+
+- aspect-ratio: La propriété CSS aspect-ratio définit un ratio d'affichage préférentiel pour la boîte, qui sera utilisé dans le calcul des tailles automatiques et pour d'autres fonctions de mise en page.
+https://developer.mozilla.org/fr/docs/Web/CSS/aspect-ratio
+
+- object-fit: La propriété CSS object-fit définit la façon dont le contenu d'un élément remplacé (<img> ou <video> par exemple) doit s'adapter à son conteneur en utilisant sa largeur et sa hauteur.
+https://developer.mozilla.org/fr/docs/Web/CSS/object-fit
+
+- place-content: La propriété raccourcie place-content permet de définir les valeurs des propriétés align-content et justify-content. Elle peut être utilisée pour n'importe quelle méthode de disposition (boîtes flexibles, grilles, etc;) qui prend en charge ces deux propriétés d'alignement.
+https://developer.mozilla.org/fr/docs/Web/CSS/place-content
+
+- padding-block: La propriété padding-block définit l'espace de remplissage (padding) pour le début et la fin de l'axe de bloc de l'élément. Cette propriété logique peut correspondre à différentes propriétés physiques selon le mode d'écriture de l'élément, sa direction et l'orientation du texte. Autrement dit, cette propriété peut correspondre aux propriétés padding-top et padding-bottom ou à padding-right et padding-left selon les valeurs des propriétés writing-mode, direction et text-orientation.
+https://developer.mozilla.org/fr/docs/Web/CSS/padding-block
+

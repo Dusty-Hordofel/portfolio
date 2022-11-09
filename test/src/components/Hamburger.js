@@ -1,6 +1,17 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useRef, useEffect } from "react";
 import { gsap } from "gsap";
 import { Link } from "react-router-dom";
+
+import {
+  staggerText,
+  staggerReveal,
+  fadeInUp,
+  handleHover,
+  handleHoverExit,
+  handleCityReturn,
+  handleCity,
+  staggerRevealClose,
+} from "./Animations";
 
 import dallas from "../images/dallas.webp";
 import austin from "../images/austin.webp";
@@ -19,10 +30,6 @@ const cities = [
 const Hamburger = ({ state }) => {
   // Create varibles of our dom nodes
   let menuLayer = useRef(null);
-  console.log(
-    "🚀 ~ file: Hamburger.js ~ line 22 ~ Hamburger ~ menuLayer",
-    menuLayer
-  );
   let reveal1 = useRef(null);
   let reveal2 = useRef(null);
   let cityBackground = useRef(null);
@@ -35,39 +42,37 @@ const Hamburger = ({ state }) => {
     // If the menu is open and we click the menu button to close it.
     if (state.clicked === false) {
       // If menu is closed and we want to open it.
-      menuLayer.style.display = "none";
 
-      // staggerRevealClose(reveal2, reveal1);
+      staggerRevealClose(reveal2, reveal1);
       // Set menu to display none
-      // gsap.to(menuLayer, { duration: 1, css: { display: "none" } });
+      gsap.to(menuLayer, { duration: 1, css: { display: "none" } });
     } else if (
       state.clicked === true ||
       (state.clicked === true && state.initial === null)
     ) {
-      menuLayer.style.display = "block";
       // Set menu to display block
-      // gsap.to(menuLayer, { duration: 0, css: { display: "block" } });
+      gsap.to(menuLayer, { duration: 0, css: { display: "block" } });
       //Allow menu to have height of 100%
-      // gsap.to([reveal1, reveal2], {
-      //   duration: 0,
-      //   opacity: 1,
-      //   height: "100%",
-      // });
-      // staggerReveal(reveal1, reveal2);
-      // fadeInUp(info);
-      // staggerText(line1, line2, line3);
+      gsap.to([reveal1, reveal2], {
+        duration: 0,
+        opacity: 1,
+        height: "100%",
+      });
+      staggerReveal(reveal1, reveal2);
+      fadeInUp(info);
+      staggerText(line1, line2, line3);
     }
   }, [state]);
 
   return (
     <div ref={(el) => (menuLayer = el)} className="hamburger-menu">
       <div
-        // ref={(el) => (reveal1 = el)}
+        ref={(el) => (reveal1 = el)}
         className="menu-secondary-background-color"
       ></div>
-      <div /*ref={(el) => (reveal2 = el)}*/ className="menu-layer">
+      <div ref={(el) => (reveal2 = el)} className="menu-layer">
         <div
-          // ref={(el) => (cityBackground = el)}
+          ref={(el) => (cityBackground = el)}
           className="menu-city-background"
         ></div>
         <div className="container">
@@ -77,9 +82,9 @@ const Hamburger = ({ state }) => {
                 <ul>
                   <li>
                     <Link
-                      // onMouseEnter={e => handleHover(e)}
-                      // onMouseOut={e => handleHoverExit(e)}
-                      // ref={el => (line1 = el)}
+                      onMouseEnter={(e) => handleHover(e)}
+                      onMouseOut={(e) => handleHoverExit(e)}
+                      ref={(el) => (line1 = el)}
                       to="/opportunities"
                     >
                       Opportunities
@@ -87,9 +92,9 @@ const Hamburger = ({ state }) => {
                   </li>
                   <li>
                     <Link
-                      // onMouseEnter={e => handleHover(e)}
-                      // onMouseOut={e => handleHoverExit(e)}
-                      // ref={el => (line2 = el)}
+                      onMouseEnter={(e) => handleHover(e)}
+                      onMouseOut={(e) => handleHoverExit(e)}
+                      ref={(el) => (line2 = el)}
                       to="/solutions"
                     >
                       Solutions
@@ -97,9 +102,9 @@ const Hamburger = ({ state }) => {
                   </li>
                   <li>
                     <Link
-                      // onMouseEnter={e => handleHover(e)}
-                      // onMouseOut={e => handleHoverExit(e)}
-                      // ref={el => (line3 = el)}
+                      onMouseEnter={(e) => handleHover(e)}
+                      onMouseOut={(e) => handleHoverExit(e)}
+                      ref={(el) => (line3 = el)}
                       to="/contact-us"
                     >
                       Contact us
@@ -107,7 +112,7 @@ const Hamburger = ({ state }) => {
                   </li>
                 </ul>
               </nav>
-              <div /*ref={el => (info = el)}*/ className="info">
+              <div ref={(el) => (info = el)} className="info">
                 <h3>Our Promise</h3>
                 <p>
                   The passage experienced a surge in popularity during the 1960s
@@ -122,8 +127,8 @@ const Hamburger = ({ state }) => {
                 {cities.map((el) => (
                   <span
                     key={el.name}
-                    // onMouseEnter={() => handleCity(el.image, cityBackground)}
-                    // onMouseOut={() => handleCityReturn(cityBackground)}
+                    onMouseEnter={() => handleCity(el.image, cityBackground)}
+                    onMouseOut={() => handleCityReturn(cityBackground)}
                   >
                     {el.name}
                   </span>

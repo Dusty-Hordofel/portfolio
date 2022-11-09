@@ -151,7 +151,6 @@ address {
 
 html {
   font-family: var(--ff-gordita);
-  /* font-family: "Montserrat"; */
   font-size: 10px;
   scroll-behavior: smooth;
 }

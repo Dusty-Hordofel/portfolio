@@ -1,0 +1,79 @@
+- inherit: Le mot-clé inherit est une valeur qui peut être utilisée pour qu'une propriété prenne la valeur calculée de la propriété pour l'élément parent. Cette valeur peut être utilisée sur n'importe quelle propriété CSS, y compris sur la propriété raccourcie all.
+https://www.w3schools.com/cssref//css_inherit.php
+https://developer.mozilla.org/fr/docs/Web/CSS/inherit
+
+# TRANSFORM
+- transform-origin: La propriété CSS définit l'origine des transformations d'un élément.transform-origin
+https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin
+
+- transform: scaleY():
+
+
+- pointer-events:
+- scroll-behavior:
+- ::-webkit-scrollbar:
+- outline-offset: 
+- display:block
+
+
+# TRANSITION
+
+- transition-delay: La propriété CSS transition-delay indique la durée à attendre avant de débuter la transition qui s'applique pour un changement de propriété.
+https://developer.mozilla.org/fr/docs/Web/CSS/transition-delay
+
+# PADDING
+- padding-block:La propriété padding-block définit l'espace de remplissage (padding) pour le début et la fin de l'axe de bloc de l'élément. 
+https://developer.mozilla.org/fr/docs/Web/CSS/padding-block
+# HTML
+- data-loading
+- data-navbar
+-  aria-label
+- data-header
+- data-nav-toggler
+- data-overlay
+
+
+# description
+1. LOADING
+
+on deéfinit  l'emplacement du logo de chargement, on déclenche la classe active avec un event listener.
+
+2. HEADER
+
+3. GALLERY
+
+- <figure></figure>: L'élément HTML <figure> représente un contenu autonome, éventuellement accompagné d'une légende facultative, qui est spécifiée à l'aide de l'élément <figcaption>. La figure, sa légende et son contenu sont référencés comme une seule unité.
+https://developer.mozilla.org/fr/docs/Web/HTML/Element/figure
+
+- aspect-ratio: La propriété CSS aspect-ratio définit un ratio d'affichage préférentiel pour la boîte, qui sera utilisé dans le calcul des tailles automatiques et pour d'autres fonctions de mise en page.
+https://developer.mozilla.org/fr/docs/Web/CSS/aspect-ratio
+
+- object-fit: La propriété CSS object-fit définit la façon dont le contenu d'un élément remplacé (<img> ou <video> par exemple) doit s'adapter à son conteneur en utilisant sa largeur et sa hauteur.
+https://developer.mozilla.org/fr/docs/Web/CSS/object-fit
+
+- place-content: La propriété raccourcie place-content permet de définir les valeurs des propriétés align-content et justify-content. Elle peut être utilisée pour n'importe quelle méthode de disposition (boîtes flexibles, grilles, etc;) qui prend en charge ces deux propriétés d'alignement.
+https://developer.mozilla.org/fr/docs/Web/CSS/place-content
+
+- padding-block: La propriété padding-block définit l'espace de remplissage (padding) pour le début et la fin de l'axe de bloc de l'élément. Cette propriété logique peut correspondre à différentes propriétés physiques selon le mode d'écriture de l'élément, sa direction et l'orientation du texte. Autrement dit, cette propriété peut correspondre aux propriétés padding-top et padding-bottom ou à padding-right et padding-left selon les valeurs des propriétés writing-mode, direction et text-orientation.
+https://developer.mozilla.org/fr/docs/Web/CSS/padding-block
+
+4. ABOUT
+
+- padding-inline-start: La propriété padding-inline-start définit le décalage avec le début de la zone de remplissage d'un élément selon le mode d'écriture, la direction et l'orientation du texte.
+https://developer.mozilla.org/fr/docs/Web/CSS/padding-inline-start
+
+- margin-block-end: La propriété margin-block-end définit la marge logique appliquée à la fin des éléments de bloc, selon le mode d'écriture, la directionnalité et l'orientation du texte. Selon les valeurs utilisées pour writing-mode, direction, and text-orientation, elle peut correspondre à margin-top, margin-right, margin-bottom ou margin-left.
+https://developer.mozilla.org/fr/docs/Web/CSS/margin-block-end
+
+
+5. SERVICES
+
+- padding-inline: La propriété padding-inline définit l'espace de remplissage (padding) pour le début et la fin de l'axe en ligne de l'élément. Cette propriété logique peut correspondre à différentes propriétés physiques selon le mode d'écriture de l'élément, sa direction et l'orientation du texte. Autrement dit, cette propriété peut correspondre aux propriétés padding-top et padding-bottom ou à padding-right et padding-left selon les valeurs des propriétés writing-mode, direction et text-orientation.
+https://developer.mozilla.org/fr/docs/Web/CSS/padding-inline
+
+- border-block: La propriété border-block est une propriété raccourcie qui permet de paramétrer les différentes propriétés logiques relatives à la bordure sur l'axe en bloc.
+https://developer.mozilla.org/fr/docs/Web/CSS/border-block
+
+- data-*: Les attributs universels data-* forment une classe d'attributs, appelés attributs de données (data attributes). Ils permettent d'échanger des données propriétaire entre le HTML et la représentation du DOM, qu'on peut manipuler avec des scripts.
+https://developer.mozilla.org/fr/docs/Web/HTML/Global_attributes/data-*
+

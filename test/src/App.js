@@ -2,6 +2,7 @@ import React from "react";
 import "./App.scss";
 import Header from "./components/Header";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Hero from "./components/Hero";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
                 <Route path="/opportunities" element={<Opportunities />} />
                 <Route path="/solutions" element={<Solutions />} />
                 <Route path="/contact-us" element={<Contact />} />
+                <Route path="/hero" element={<Hero />} />
               </Routes>
             </div>
           </div>

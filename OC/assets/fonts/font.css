@@ -1,0 +1,209 @@
+/*-----------------------------------*\
+  #style.css
+\*-----------------------------------*/
+
+/**
+ * copyright 2022 codewithsadee
+ */
+
+/**
+ * SFMONO FONT
+ */
+
+@font-face {
+  font-family: "Calibre";
+  src: local("Calibre Regular"), local("Calibre-Regular"),
+    url("./calibre/Calibre-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Recoleta";
+  src: local("Recoleta Light"), local("Recoleta-Light"),
+    url("./recoleta/Recoleta-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* @font-face {
+  font-family: "SF Mono";
+  src: local("SF Mono Regular"), local("SF-Mono-Regular"),
+    url("./SFMono/SFMono-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+} */
+/*
+@font-face {
+  font-family: "SF Mono";
+  src: local("SF Mono Regular"), local("SF-Mono-Regular"),
+    url("./SFMono/SFMono-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SF Mono";
+  src: local("SF Mono RegularItalic"), local("SF-Mono-RegularItalic"),
+    url("./SFMono/SFMono-RegularItalic.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SF Mono";
+  src: local("SF Mono RegularItalic"), local("SF-Mono-RegularItalic"),
+    url("./SFMono/SFMono-RegularItalic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SF Mono";
+  src: local("SF Mono Semibold"), local("SF-Mono-Semibold"),
+    url("./SFMono/SFMono-Semibold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SF Mono";
+  src: local("SF Mono Semibold"), local("SF-Mono-Semibold"),
+    url("./SFMono/SFMono-Semibold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SF Mono";
+  src: local("SF Mono SemiboldItalic"), local("SF-Mono-SemiboldItalic"),
+    url("./SFMono/SFMono-SemiboldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SF Mono";
+  src: local("SF Mono SemiboldItalic"), local("SF-Mono-SemiboldItalic"),
+    url("./SFMono/SFMono-SemiboldItalic.woff2") format("woff2");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+} */
+
+/**
+ * CALIBRE FONT
+ */
+
+/* @font-face {
+  font-family: "Calibre";
+  src: url("./Calibre/Calibre-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+} */
+/* @font-face {
+  font-family: "Calibre";
+  src: local("Calibre Regular"), local("Calibre-Regular"),
+    url("./Calibre/Calibre-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+} */
+/* 
+@font-face {
+  font-family: "Calibre";
+  src: local("Calibre Regular"), local("Calibre-Regular"),
+    url("./Calibre/Calibre-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Calibre";
+  src: local("Calibre Italic"), local("Calibre-Italic"),
+    url("./Calibre/Calibre-RegularItalic.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Calibre";
+  src: local("Calibre Italic"), local("Calibre-Italic"),
+    url("./Calibre/Calibre-RegularItalic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Calibre";
+  src: local("Calibre Medium"), local("Calibre-Medium"),
+    url("./Calibre/Calibre-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Calibre";
+  src: local("Calibre Medium"), local("Calibre-Medium"),
+    url("./Calibre/Calibre-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Calibre";
+  src: local("Calibre MediumItalic"), local("Calibre-MediumItalic"),
+    url("./Calibre/Calibre-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Calibre";
+  src: local("Calibre MediumItalic"), local("Calibre-MediumItalic"),
+    url("./Calibre/Calibre-MediumItalic.woff2") format("woff2");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Calibre";
+  src: local("Calibre SemiBold"), local("Calibre-SemiBold"),
+    url("./Calibre/Calibre-Semibold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Calibre";
+  src: local("Calibre SemiBold"), local("Calibre-SemiBold"),
+    url("./Calibre/Calibre-Semibold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Calibre";
+  src: local("Calibre SemiBoldItalic"), local("Calibre-SemiBoldItalic"),
+    url("./Calibre/Calibre-SemiboldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Calibre";
+  src: local("Calibre SemiBoldItalic"), local("Calibre-SemiBoldItalic"),
+    url("./Calibre/Calibre-SemiboldItalic.woff2") format("woff2");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+} */
